@@ -1,0 +1,10 @@
+@use "variables" as v;
+
+.test {
+    color: aquamarine;
+    background-color: red;
+}
+
+h1 {
+    color: v.$test-color;
+}
